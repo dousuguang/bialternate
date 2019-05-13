@@ -3,7 +3,7 @@ clear
 
 n=6;
 i=0;
-fprintf('\nBialternate product of A & I%d: \n\n',n)
+fprintf('\n 2*Biproduct(A,I) =\n\n',n)
 for p=2:n
     for q=1:p-1
         i=i+1;

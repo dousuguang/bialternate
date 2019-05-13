@@ -7,7 +7,7 @@ for p=2:n
         for r=2:n
             for s=1:r-1
                 j=j+1;
-                fprintf('c%d%d%d%d%d%d=',i,j,p,q,r,s);
+                fprintf('2*c%d%d_%d%d%d%d=',i,j,p,q,r,s);
                 if q==s
                     fprintf('+a%d%d',p,r)
                 end

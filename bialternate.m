@@ -17,9 +17,9 @@ for p=2:n
         for r=2:n
             for s=1:r-1
                 j=j+1;
-                c(i,j)=....
+                c(i,j)=0.5*(....
                 a(p,r)*b(q,s)-a(p,s)*b(q,r)+....
-                a(q,s)*b(p,r)-a(q,r)*b(p,s); 
+                a(q,s)*b(p,r)-a(q,r)*b(p,s) ); 
             end
         end
     end
